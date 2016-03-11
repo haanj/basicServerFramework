@@ -1,0 +1,18 @@
+{
+  "name": "router-framework-haanj",
+  "version": "0.1.0",
+  "description": "This is a simple routing framework written as a Code Fellows 401 assignment. It functions as a light  wrapper around the node HTTP module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "haanj",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-mocha": "^2.2.0"
+  }
+}
