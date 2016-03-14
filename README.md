@@ -6,11 +6,11 @@ This is a framework made for a Code Fellows 401 assignment. The purpose is to he
 
 Usage is pretty straightforward.
 
-1. Require in the module
+Require in the module
 ```
 var server = require(router-framework-haanj)
 ```
-2. Create an array of routes you want to create. Include method, route, and callback function
+Create an array of routes you want to create. Include method, route, and callback function
 ```
 var routes = [
   {
@@ -45,7 +45,7 @@ var routes = [
   }
 ];
 ```
-3. Start the server by passing in your port and route array.
+Start the server by passing in your port and route array.
 ```
 server(3000, routes)
 ```
