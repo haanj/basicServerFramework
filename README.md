@@ -49,3 +49,4 @@ Start the server by passing in your port and route array.
 ```
 server(3000, routes)
 ```
+The module will create the routes and start up the server automatically.
