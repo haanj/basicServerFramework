@@ -1,7 +1,18 @@
-'use strict';
-let server = require(__dirname + '/../index.js');
+# router-framework-haanj
 
-let routes = [
+This is a framework made for a Code Fellows 401 assignment. The purpose is to help the user create a RESTFUL server by automatically handling aspects of the HTTP node module.
+
+# Usage
+
+Usage is pretty straightforward.
+
+1. Require in the module
+```
+var server = require(router-framework-haanj)
+```
+2. Create an array of routes you want to create. Include method, route, and callback function
+```
+var routes = [
   {
     method: 'get',
     route: '/users',
@@ -33,5 +44,8 @@ let routes = [
     }
   }
 ];
-
-server(3000, routes);
+```
+3. Start the server by passing in your port and route array.
+```
+server(3000, routes)
+```
