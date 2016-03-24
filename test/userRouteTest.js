@@ -31,4 +31,24 @@ describe('/users resource routing tests', () => {
         done();
       });
   });
+  it('should send back \'hello delete\' with DELETE request', (done) => {
+    request('localhost:3000')
+      .delete('/users')
+      .end((err, res) => {
+        expect(err).to.eql(null);
+        expect(res).to.have.status(200);
+        expect(res.text).to.eql('"hello delete"');
+        done();
+      });
+  });
+  it('should send back \'hello put\' with DELETE request', (done) => {
+    request('localhost:3000')
+      .put('/users')
+      .end((err, res) => {
+        expect(err).to.eql(null);
+        expect(res).to.have.status(200);
+        expect(res.text).to.eql('"hello put"');
+        done();
+      });
+  });
 });

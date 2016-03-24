@@ -6,9 +6,12 @@ This is a framework made for a Code Fellows 401 assignment. The purpose is to he
 
 Usage is pretty straightforward.
 
+Install to your project directory
+`npm install -S router-framework-haanj`
+
 Require in the module
 ```
-var server = require(router-framework-haanj)
+var server = require('router-framework-haanj')
 ```
 Create an array of routes you want to create. Include method, route, and callback function
 ```

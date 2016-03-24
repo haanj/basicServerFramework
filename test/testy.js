@@ -31,6 +31,24 @@ let routes = [
         return res.end();
       });
     }
+  },
+  {
+    method: 'delete',
+    route: '/users',
+    fn: (req,res) => {
+      res.writeHead(200, {'content-type': 'text/plain'});
+      res.write(JSON.stringify('hello delete'));
+      res.end();
+    }
+  },
+  {
+    method: 'put',
+    route: '/users',
+    fn: (req,res) => {
+      res.writeHead(200, {'content-type': 'text/plain'});
+      res.write(JSON.stringify('hello put'));
+      res.end();
+    }
   }
 ];
 
