@@ -1,6 +1,6 @@
 {
   "name": "router-framework-haanj",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "This is a simple routing framework written as a Code Fellows 401 assignment. It functions as a light  wrapper around the node HTTP module.",
   "main": "index.js",
   "scripts": {
